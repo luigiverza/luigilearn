@@ -1,0 +1,50 @@
+h1{
+    font-family: "sans-serif";
+    font-size: 25px;
+    text-align: inherit;
+}
+h2{
+    font-family: "sans-serif";
+    font-size: 18px;
+    color: #AEA79F;
+    text-align: inherit;
+}
+hr{
+    width: 280px;
+    height: 8px;
+    background-color: #3C3B37;
+    margin: -6px;
+}
+select{
+
+}
+input{
+
+}
+textarea{
+
+}
+button{
+    width:65px;
+    height:35px;
+    background-color: #FFAD0B;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px; black;
+    margin: 2px;
+
+
+}
+p{
+    font-size:xx-large;
+    color: white;
+    font-weight: bold;
+}
+button:focus {
+    background-color: #A80031;
+}
+button:hover {
+    background-color: #EE2E3B;
+}
+
