@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 1</title>
+    <script src="dist/js/villa.min.js"></script>
+    <link rel="stylesheet" href="dist/css/villa.min.css"/>
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="dist/css/material-colors.css"/>
+    <link rel="stylesheet" type="text/css" href="dist/css/villa-cross.min.css"/>
+    <script src="dist/js/html5shiv.js"></script>
+    <script src="dist/js/html5shiv-printshiv.js"></script>
+    <script src="dist/js/classList.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<style>
+
+    .Button {
+        border: none;
+        color: #ffffff;
+        display: flex;
+        font-size: 1em;
+        margin: .5em;
+        max-width: 12em;
+        padding: .6875em 1.5em;
+        text-align: left;
+        width: 100%;
+    }
+
+    .Button--primeiro {
+        background-color: #8f44ad;
+    }
+
+    .Button--segundo {
+        background-color: #bf3a2b;
+        border-radius: 12px;
+    }
+
+    .Button--terceiro {
+        background-color: #2c3d4f;
+        border-radius: 12px 4px;
+    }
+
+    .Button--quarto {
+        background-color: #297fba;
+        border-radius: 4px 12px;
+    }
+
+</style>
+
+<div class="flex">
+
+    <button href="#" class="Button Button--primeiro">bell/bounce</button>
+    <a href="#" class="Button Button--segundo">rotate/shadow</a>
+    <a href="#" class="Button Button--terceiro">zoom/shake</a>
+    <a href="#" class="Button Button--quarto">And more...</a>
+
+</div>
+
+</body>
+</html>
