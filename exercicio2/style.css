@@ -1,27 +1,38 @@
 #box{
-    width:250px;
-    height:50px;
+    width:150px;
+    height:40px;
     background-color: #8F44AD;
     border-radius: 10px;
+    font-size: 12px;
+    font-family: Serif;
+    color: #FFFFFF;
 }
 #box1{
-    width:250px;
-    height:50px;
+    width:150px;
+    height:40px;
     background-color: #2A80B9;
     border-radius: 8px 30px;
-
+    font-size: 12px;
+    font-family: Serif;
+    color: #FFFFFF;
 }
 #box2{
-    width:250px;
-    height:50px;
+    width:150px;
+    height:40px;
     background-color: #BF3A2B;
     border-radius: 40px 40px 40px 40px;
+    font-size: 12px;
+    font-family: Serif;
+    color: #FFFFFF;
 }
 #box3{
-    width:250px;
-    height:50px;
+    width:150px;
+    height:40px;
     background-color: #2C3E50;
     border-radius: 30px 8px;
+    font-size: 12px;
+    font-family: Serif;
+    color: #FFFFFF;
 }
 div{
     text-align: center;
