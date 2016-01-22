@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Tudo sobre Gooogle Glass</title>
     <script src="dist/js/villa.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    <link rel="stylesheet" href="_css/media.css"/>
+    <link rel="stylesheet" href="_css/estilo.css"/>
     <!--[if lt IE 9]>
     <link rel="stylesheet" type="text/css" href="dist/css/material-colors.css"/>
     <link rel="stylesheet" type="text/css" href="dist/css/villa-cross.min.css"/>
@@ -15,37 +16,45 @@
 </head>
 <script language="JavaScript" src="_javascript/funcoes.js"></script>
 <body>
-<div id="interface">
-    <header id="cabecalho">
+<div id="interface"/>
+<header id="cabecalho"/>
+<hgroup>
+    <h1>Google Glass</h1>
+    <h2>A revolução do Google está chegando</h2>
+</hgroup>
+
+<img id="icone" src="_imagens/glass-oculos-preto-peq.png">
+<nav id="menu">
+    <h1>Menu Principal</h1>
+    <ul type="disc">
+        <li onmousemove="mudafoto('_imagens/home.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="index.html">Home</a></li>
+        <li onmousemove="mudafoto('_imagens/especificacoes.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="specs.html">Especificações</a></li>
+        <li onmousemove="mudafoto('_imagens/fotos.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+        <li onmousemove="mudafoto('_imagens/multimidia.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+        <li onmousemove="mudafoto('_imagens/contato.png')" onmouseout="mudafoto('_imagens/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+    </ul>
+</nav>
+</header>
+
+<section id="corpo-full"/>
+<article id="noticia-principal">
+    <header id="cabecalho-artigo">
         <hgroup>
-            <h1>Google Glass</h1>
-            <h2>A revolução do Google está chegando</h2>
+            <h3>Glass > multimidia</h3>
+            <h1>Musicas e Videos</h1>
+            <h2>por Gustavo Guanabara</h2>
+            <h3 class="direita">Atualizado em 01/Maio/2013/</h3>
         </hgroup>
-
-        <img id="icone" src="_imagens/glass-oculos-preto-peq.png">
-        <nav id="menu">
-            <h1>Menu Principal</h1>
-            <ul type="disc">
-                <li onmousemove="mudafoto('_imagens/home.png')" onmouseout="mudafoto('_imagens/glass-oculos-preto-peq.png')"><a href="index.html">Home</a></li>
-                <li onmousemove="mudafoto('_imagens/especificacoes.png')" onmouseout="mudafoto('_imagens/glass-oculos-preto-peq.png')"><a href="specs.html">Especificações</a></li>
-                <li onmousemove="mudafoto('_imagens/fotos.png')" onmouseout="mudafoto('_imagens/glass-oculos-preto-peq.png')"><a href="fotos.html">Fotos</a></li>
-                <li onmousemove="mudafoto('_imagens/multimidia.png')" onmouseout="mudafoto('_imagens/glass-oculos-preto-peq.png')"><a href="multimidia.html">Multimídia</a></li>
-                <li onmousemove="mudafoto('_imagens/contato.png')" onmouseout="mudafoto('_imagens/glass-oculos-preto-peq.png')"><a href="fale-conosco.html">Fale conosco</a></li>
-            </ul>
-        </nav>
     </header>
-
-Glass > Multimídia
-Sons e Vídeos
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
-
-
-Áudio e Vídeo
-
-[AQUI ENTRA UM VÍDEO]
-[AQUI ENTRA UM ÁUDIO]
-
+</article>
+    <div id="tv-radio">
+        <audio id="musica" controls="controls">
+            <source src="../../curso-html5-pacote02/_media/bleach44.mp3" type="audio/mpeg" />
+        </audio>
+        <video id="filme" controls="controls" poster="_imagens/video-mini03.jpg">
+            <source src="../../curso-html5-pacote02/_media/saitamavsgenro.mp4" type="video/mp4" />
+        </video>
+    </div>
     <footer id="rodape">
         <p>Copyright 2013 - by Gustavo Guanabara<br/>
             <a href="http://facebook.com" target="_blank">Facebook</a> |
