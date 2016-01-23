@@ -35,31 +35,34 @@
         </nav>
     </header>
 
-Fale Conosco > Contato
-Formulário de Contato
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+<form>
 
-Identificação do Usuário
-    Nome:
-    Senha:
-    E-mail:
-    Sexo:
-        - Masculino
-        - Feminino
-    Data de Nascimento:
+    <legend id="usuario">Identificação do Usuário</legend>
+    <p>Nome:<input type="text" name="tNome" id="cNome" size="20" maxlength="20" placeholder="Nome Completo"/></p>
+    <p>Senha:<input type="password" name="tSenha" id="cSenha" size="10" maxlength="10" placeholder="Senha de 10 dígitos"/></p>
+    <p>E-mail:<input type="email" name="tEmail" id="cEmail" size="30" maxlength="30" placeholder="Digite seu Email"/></p>
+    <legend>Sexo:</legend>
+        <input type="radio" name="tSexo" id="cMasc" checked/><label for="cMasc">- Masculino</label><br />
+        <input type="radio" name="tSexo" id="cFem"/><label for="cFem">- Feminino</label>
+    </fieldset>
+    <p>Data de Nascimento:<input type="date" name="tNasc" id="cNasc" placeholder="Digite sua data de nascimento"/></p>
+    </fieldset>
 
-Endereço do Usuário
-    Logradouro:
-    Número:
+<fieldset id="endereco"><legend>Endereço do Usuário</legend>
+    <p>Logradouro:<input type="text" name="tRua" id="cRua" size="13" maxlength="50" placeholder="Digite sua Rua"/></p>
+    <p>Número:<input type="number" name="tnumber" id="cnumber" min="0" max="999999" placeholder="Digite número de sua casa"/></p>
     Estado:
     Cidade:
+</fieldset>
 
-Mensagem do Usuário
+<fieldset id="mensagem">
+    <legend>Mensagem do Usuário</legend>
     Grau de Urgência:
     Mensagem:
+</fieldset>
 
-Quero um Google Glass
+<fieldset id="pedido">
+    <legend>Quero um Google Glass</legend>
     Gostaria de adquirir um Google Glass quando disponível
     Cor:
     Quantidade:
@@ -67,6 +70,8 @@ Quero um Google Glass
 
 
 [BOTÃO ENVIAR]
+</fieldset>
+</form>
 
     <footer id="rodape">
         <p>Copyright 2013 - by Gustavo Guanabara<br/>
