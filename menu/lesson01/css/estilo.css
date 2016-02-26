@@ -13,16 +13,21 @@ p,h1 {
 }
 
 #corpo {
-    background-color: #9e9e9e;
+    background-color: #fafafa;
 }
 
 .conteudo {
-    background-color: #fafafa;
+    background-color: #e0e0e0;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 #rodape {
     color: black;
+    background-color: #fafafa;
+}
+article {
     background-color: #2196f3;
+    margin: 10px;
+    padding: 1em;
 }
