@@ -1,0 +1,28 @@
+
+.imgh {
+    width: 150px;
+    height: 130px;
+    border: 2px solid black;
+    margin: 25px;
+}
+
+p,h1 {
+    margin: 25px;
+    text-align: justify;
+    text-align: center;
+}
+
+#corpo {
+    background-color: #9e9e9e;
+}
+
+.conteudo {
+    background-color: #fafafa;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#rodape {
+    color: black;
+    background-color: #fafafa;
+}
